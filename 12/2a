@@ -10,7 +10,7 @@ accept: q_acc
 // < = left, > = right,- = hold, use underscore for blank cells
 
 q0w, b
-q_m, X,>
+q_m, b,>
 
 q0w, a
 q_acc, a,-
@@ -19,7 +19,7 @@ q0w, _
 q_acc, _,-
 
 q_m, b
-q_m, X, >
+q_m, b, >
 
 q_m, a
 q_acc, a, -
