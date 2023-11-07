@@ -1,0 +1,33 @@
+//-------CONFIGURATION
+name: yoongi 2c
+init: q0w
+accept: q_acc
+
+//-------DELTA FUNCTION:
+
+q0w, a
+q_m, a,>
+
+q0w, b
+q_m, b,>
+
+q0w, _
+q_acc, _,-
+
+q_m, a
+q_m, a, >
+
+q_m, b
+q_m, b, >
+
+q_m, _
+q_look, _, <
+
+q_look, a
+q_look, a, <
+
+q_look, b
+q_acc, b, -
+
+q_look, _
+q_lo, _, -
