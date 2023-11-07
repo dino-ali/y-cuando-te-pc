@@ -1,0 +1,28 @@
+//-------CONFIGURATION
+name: yoongi 2a
+init: q0w
+accept: q_acc
+
+//-------DELTA FUNCTION:
+//[current_state],[read_symbol]
+//[new_state],[write_symbol],[>|<|-]
+
+// < = left, > = right,- = hold, use underscore for blank cells
+
+q0w, b
+q_m, X,>
+
+q0w, a
+q_acc, a,-
+
+q0w, _
+q_acc, _,-
+
+q_m, b
+q_m, X, >
+
+q_m, a
+q_acc, a, -
+
+q_m, _
+q_lo, _, -
