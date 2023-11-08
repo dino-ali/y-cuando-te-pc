@@ -1,0 +1,45 @@
+//-------CONFIGURATION
+name: yoongi en cu4tro
+init: q0
+accept: quack
+
+//-------DELTA FUNCTION:
+//una a
+q0, a
+q1, a, >
+
+q0, b
+q0, b, >
+
+q0, c
+q0, c, >
+
+//dos a
+q1, a
+q2, a, >
+
+q1, b
+q1, b, >
+
+q1, c
+q1, c, >
+
+//tres a
+q2, a
+quack, a, >
+
+q2, b
+q2, b, >
+
+q2, c
+q2, c, >
+
+//más de tres a
+quack, a
+qmuere, a, >
+
+quack, b
+quack, b, >
+
+quack, c
+quack, c, >
